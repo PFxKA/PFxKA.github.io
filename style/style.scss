@@ -1,0 +1,32 @@
+@import "_util.scss";
+@import "uk-overwrite.scss";
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../res/images/pfxka_eingang.jpg");
+}
+
+.main-content__home{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.2);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    div{
+        width: 70%;
+        // padding: 16px 32px;
+        // background: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.main-title{
+    text-align: center;
+    color: #000;
+    // text-align-last: left;
+}

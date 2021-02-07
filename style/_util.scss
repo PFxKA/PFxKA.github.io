@@ -1,0 +1,24 @@
+@import "_reset.scss";
+
+body, .main-content{
+min-width: 350px;
+}
+
+.noselect{
+    user-select: none;
+}
+
+.dev {
+    display: block;
+    background: red;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.rotate-scale-svg{
+    svg {
+        transform: scale(5) rotate(90deg);
+    }
+}
