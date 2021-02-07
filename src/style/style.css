@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+body, .main-content {
+  min-width: 350px;
+}
+
+.noselect {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.dev {
+  display: block;
+  background: red;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.rotate-scale-svg svg {
+  -webkit-transform: scale(5) rotate(90deg);
+          transform: scale(5) rotate(90deg);
+}
+
+.imprint-floating-btn {
+  display: block;
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  background-color: #1e87f0;
+  border-radius: 50%;
+  color: white;
+  padding: 8px;
+}
+
+.uk-card {
+  cursor: pointer;
+}
+
+.uk-button-danger:disabled,
+.uk-button-default:disabled,
+.uk-button-primary:disabled,
+.uk-button-secondary:disabled {
+  background-color: whitesmoke;
+  cursor: not-allowed;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../res/images/pfxka_eingang.jpg");
+}
+
+.main-content__home {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main-content__home div {
+  width: 70%;
+}
+
+.main-title {
+  text-align: center;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */

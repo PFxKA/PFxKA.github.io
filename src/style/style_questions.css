@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+body, .main-content {
+  min-width: 350px;
+}
+
+.noselect {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.dev {
+  display: block;
+  background: red;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.rotate-scale-svg svg {
+  -webkit-transform: scale(5) rotate(90deg);
+          transform: scale(5) rotate(90deg);
+}
+
+.imprint-floating-btn {
+  display: block;
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  background-color: #1e87f0;
+  border-radius: 50%;
+  color: white;
+  padding: 8px;
+}
+
+.uk-card {
+  cursor: pointer;
+}
+
+.uk-button-danger:disabled,
+.uk-button-default:disabled,
+.uk-button-primary:disabled,
+.uk-button-secondary:disabled {
+  background-color: whitesmoke;
+  cursor: not-allowed;
+}
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.question-headline {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 24px 64px;
+}
+
+.question-headline h2 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 32px 24px;
+  padding-bottom: 0;
+}
+
+.question-headline hr {
+  margin-bottom: 0;
+}
+
+.question-images-container {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+@media screen and (min-width: 960px) {
+  .question-images-container img {
+    max-height: 450px;
+  }
+}
+
+.continue-button {
+  margin: 32px 0;
+}
+/*# sourceMappingURL=style_questions.css.map */
